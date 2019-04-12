@@ -32,6 +32,7 @@
 <script src="assets/js/jquery.min.js" type="text/javascript"></script>
 <script src="assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
 <script type="text/javascript">
+
     function searchToggle(obj, evt) {
         let container = $(obj).closest('.search-wrapper');
         if (!container.hasClass('active')) {
@@ -56,12 +57,27 @@
             html = "请输入你的错误输出(。・∀・)ノ";
         }
         else {
-            html += value;
+            html += search(value);
         }
         $(obj).find('.result-container').html('<span>' + html + '</span>');
         $(obj).find('.result-container').fadeIn(100);
         evt.preventDefault();
     }
+
+    function search(input) {
+        let feedback = new SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '{{ site.baseurl }}/search.json',
+            searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+            noResultsText: 'No results found',
+            limit: 10,
+            fuzzy: false,
+            exclude: ['Welcome']
+        });
+        return feedback.search(input);
+    }
+
 </script>
 </body>
 </html>
