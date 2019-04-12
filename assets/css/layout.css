@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #00953e;
+    color: #009c6c;
     text-decoration: none;
     transition: .2s ease-in
 }
@@ -90,7 +90,7 @@ figure {
     display: inline-block;
     padding: 5px 25px;
     color: #fff;
-    background-color: #00953e;
+    background-color: #008569;
     border-radius: 2px;
     text-decoration: none;
     border: none
@@ -100,7 +100,7 @@ figure {
     text-decoration: none;
     border: none;
     color: #fff;
-    background-color: #00c853
+    background-color: #00553b
 }
 
 .btn:after {
@@ -128,14 +128,14 @@ a:hover {
 p a {
     color: rgba(0, 0, 0, .7);
     text-decoration: none;
-    border-bottom: 2px solid #62ffa3;
+    border-bottom: 2px solid #00d98e;
     padding-bottom: 4px;
     -webkit-transition: .4s ease;
     -moz-transition: .4s ease
 }
 
 p a:hover {
-    border-bottom: 2px solid #00c853
+    border-bottom: 2px solid #009c6c
 }
 
 .container {
