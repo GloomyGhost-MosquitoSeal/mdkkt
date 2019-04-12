@@ -1,0 +1,11 @@
+permalink: /Solution/:title/
+
+plugins: [jekyll-paginate]
+
+baseurl: /
+
+markdown: kramdown
+highlighter: rouge
+paginate: 20
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
