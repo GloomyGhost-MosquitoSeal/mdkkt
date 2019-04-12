@@ -53,10 +53,10 @@
         let value = $(obj).find('.search-input').val().trim();
         let html = "搜索结果：";
         if (!value.length) {
-            html = "Yup yup! Add some text friend :D";
+            html = "请输入你的错误输出(。・∀・)ノ";
         }
         else {
-            html += ;
+            html += value;
         }
         $(obj).find('.result-container').html('<span>' + html + '</span>');
         $(obj).find('.result-container').fadeIn(100);
