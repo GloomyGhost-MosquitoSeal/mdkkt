@@ -3,10 +3,9 @@ html, body {
 }
 
 body {
-    padding: 0px;
-    margin: 0px;
-    background-size: cover;
-    background: url(../img/image.jpg) no-repeat fixed center;
+    padding: 0;
+    margin: 0;
+    background-color: #2f3238;
 }
 
 .search-wrapper {
