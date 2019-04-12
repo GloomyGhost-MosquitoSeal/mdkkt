@@ -25,7 +25,11 @@
             resultsContainer: document.getElementById('results-container'),
             json: 'https://mdkkt.github.io/search.json',
             searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-            noResultsText: '没有找到结果呢(。﹏。*)',
+            noResultsText: '没有找到结果呢(。﹏。*)' +
+                '<br/>' +
+                '试试搜索引擎？（o´・ェ・｀o）' +
+                '<br/>' +
+                '或者向我们提交这个问题，我们会尽快完善的！(o゜▽゜)o☆',
             limit: 40,
             fuzzy: false,
         })
