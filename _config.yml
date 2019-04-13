@@ -1,4 +1,6 @@
-permalink: /Solution/:title/
+title: Mdkkt | もんだいかいけつ
+
+permalink: /Solution/:category/:title/
 
 plugins: [jekyll-paginate]
 
