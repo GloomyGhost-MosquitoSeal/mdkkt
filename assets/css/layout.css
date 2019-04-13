@@ -23,7 +23,7 @@ html, body {
     padding: 0;
     font-family: -apple-system, ".sfnstext-regular", san francisco, roboto, segoe ui, helvetica neue, lucida grande, Arial, sans-serif;
     background: 0 0;
-    font-size: 22px;
+    font-size: 17px;
     line-height: 1.7;
     color: rgba(0, 0, 0, .7);
     font-weight: 400;
@@ -160,7 +160,7 @@ p a:hover {
 }
 
 input[type=text] {
-
+    font-size: 16px;
     outline: none;
     padding: 15px 25px;
     margin: 5px 1px 3px 0px;
