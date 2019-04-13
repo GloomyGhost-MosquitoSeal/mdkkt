@@ -6,3 +6,7 @@
 #solution p{
     word-wrap: break-word;
 }
+
+#solution code{
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
