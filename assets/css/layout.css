@@ -54,7 +54,8 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: #009c6c;
     text-decoration: none;
-    transition: .2s ease-in
+    transition: .2s ease-in;
+    word-break: break-all;
 }
 
 a:hover {
@@ -206,4 +207,8 @@ input[type=text]:focus {
 
 li {
     list-style-image: url("/assets/img/li.png");
+}
+
+#results-container {
+    padding: 0;
 }
