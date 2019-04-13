@@ -1,6 +1,6 @@
 title: Mdkkt | もんだいかいけつ
 
-permalink: /Solution/:category/:title/
+permalink: /Solution/:title/
 
 plugins: [jekyll-paginate]
 
