@@ -1,7 +1,6 @@
 ---
 layout: solution
 title: "SyntaxError: invalid syntax"
-description: "语法错误"
 category: "Python"
 date: "2019-04-13"
 ---
