@@ -1,0 +1,8 @@
+#solution{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#solution p{
+    word-wrap: break-word;
+}

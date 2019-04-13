@@ -6,12 +6,16 @@
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="帮助你在很短的时间内解决问题。"/>
     <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/solution.css">
 </head>
 <body>
 <div class="container">
-    <a class="btn" href="#">使用说明</a>
+
     <a class="btn" href="/">主页</a>
-    {{ contents }}
+
+    <div id="solution">
+        {{ content }}
+    </div>
 </div>
 
 <script type="text/javascript" color="50,150,200" opacity='0.8' zIndex="-2" count="100"
