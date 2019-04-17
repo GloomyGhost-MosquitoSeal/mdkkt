@@ -3,12 +3,12 @@ layout: default
 ---
 
 <a class="btn" id="htu_button" onclick="htu()">使用说明</a>
-<a class="btn" id="htu_back" onclick="htu_back()">返回</a>
+<a class="btn" id="htu_back" style="display:none" onclick="htu_back()">返回</a>
 
 <div id="search-container">
     <input type="text" id="search-input" placeholder="输入你的错误信息(*/ω＼*)" autocomplete="off"/>
     <ul id="results-container"></ul>
-    <div id="htu">
+    <div id="htu" style="display:none">
         <p>会用百度吧</p>
     </div>
 </div>
