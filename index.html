@@ -2,20 +2,23 @@
 layout: default
 ---
 
-<a class="btn" id="htu" onclick="htu()">使用说明</a>
-<a class="btn" id="back" onclick="htu_back()">返回</a>
+<a class="btn" id="htu_button" onclick="htu()">使用说明</a>
+<a class="btn" id="htu_back" onclick="htu_back()">返回</a>
 
 <div id="search-container">
     <input type="text" id="search-input" placeholder="输入你的错误信息(*/ω＼*)" autocomplete="off"/>
     <ul id="results-container"></ul>
     <div id="htu">
-        会用百度吧
+        <p>会用百度吧</p>
     </div>
 </div>
 
 <script src="assets/js/simple-jekyll-search.js" type="text/javascript"></script>
 
 <script>
+    /*
+    搜索交互
+    */
     SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
@@ -35,13 +38,18 @@ layout: default
 </script>
 
 <script>
+    /*
+    网页按钮交互
+    */
     function htu(){
         document.getElementById("htu").style.display="";
+        document.getElementById("htu_back").style.display="";
         document.getElementById("search-input").style.display="none";
     }
 
     function htu_back(){
         document.getElementById("htu").style.display="none";
+        document.getElementById("htu_back").style.display="none";
         document.getElementById("search-input").style.display="";
     }
 </script>
