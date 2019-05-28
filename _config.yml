@@ -4,7 +4,7 @@ permalink: /Solution/:title/
 
 plugins: [jekyll-paginate]
 
-baseurl: /
+baseurl: /mdkkt
 
 markdown: kramdown
 highlighter: rouge
